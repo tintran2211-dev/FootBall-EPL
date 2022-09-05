@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828504531813",
+    "project_id": "th5-firebase",
+    "storage_bucket": "th5-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828504531813:android:741912acc3d53d622b378c",
+        "android_client_info": {
+          "package_name": "com.example.th5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828504531813-e0r0j02ap8fdjl2lm6kgeoonmmk8413v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKIB3BjiNNH0wbA1ZD-bLXlW2ZHJkttXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828504531813-e0r0j02ap8fdjl2lm6kgeoonmmk8413v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

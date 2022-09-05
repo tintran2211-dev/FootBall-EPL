@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/login"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:rotationX="10"
+        android:layout_marginVertical="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logolion">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edt_login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="400dp"
+        android:hint="Email address">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_login2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_login1"
+        android:layout_alignRight="@+id/edt_login1"
+        android:layout_alignLeft="@+id/edt_login1"
+        android:inputType="textPassword"
+        android:hint="Password">
+    </EditText>
+    <Button
+        android:id="@+id/button_login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_login2"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:layout_alignLeft="@id/edt_login2"
+        android:layout_alignRight="@id/edt_login2">
+    </Button>
+    <Button
+        android:id="@+id/button_login2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_login1"
+        android:layout_marginTop="10dp"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        android:layout_alignLeft="@id/edt_login2"
+        android:layout_alignRight="@id/edt_login2">
+    </Button>
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:layout_below="@+id/button_login2"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+
+</RelativeLayout>
